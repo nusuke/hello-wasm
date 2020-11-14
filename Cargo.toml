@@ -5,12 +5,12 @@ authors = ["nusuke <nusukep@gmail.com>"]
 edition = "2018"
 description = "A sample project with wasm-pack"
 license = "MIT/Apache-2.0"
-repository = ""
+repository = "https://github.com/nusuke/hello-wasm"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-create-type = ["cdylib"]
+crate-type = ["cdylib"]
 
 [dependencies]
 wasm-bindgen = "0.2"
